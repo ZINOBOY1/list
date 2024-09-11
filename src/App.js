@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  let username = 'Mezino'
+
+return(
+<div className="container bg-primary">
+  <div className="row">
+    <h1 className="">Welcome mr, {username}</h1>
+    <h1>This is my first component</h1>
+    <p>We have seen two rules of jsx so far </p>
+  </div>
+</div>
+
+)
+  
+
 }
 
 export default App;
